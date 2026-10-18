@@ -1,0 +1,16 @@
+{
+  "name": "upi-bridge-global",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UPI Bridge Global - simulated cross-border UPI remittance prototype (hackathon demo). No real payments.",
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node server/src/index.js",
+    "dev": "node --watch server/src/index.js",
+    "seed": "node server/src/seed.js",
+    "reset-db": "node -e \"import('node:fs').then(f=>{f.rmSync('data',{recursive:true,force:true});console.log('data/ removed')})\"",
+    "test": "node --test --no-warnings server/test/*.test.js"
+  },
+  "dependencies": {}
+}

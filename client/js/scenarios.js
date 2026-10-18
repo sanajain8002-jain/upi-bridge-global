@@ -1,0 +1,20 @@
+// Guided demo scenarios (fictional recipients, SAMPLE data). Each pre-fills the Send Money flow.
+export const SCENARIOS = [
+  { key: 'NP', title: 'Nepal remittance', blurb: 'The headline demo: a family remittance to Nepal.', country: 'NP', name: 'Sita Sharma', identifier: 'sita.sharma@nepal-demo', amount: 10000, featured: true },
+  { key: 'BD', title: 'Bangladesh', blurb: 'Monthly support to family in Dhaka.', country: 'BD', name: 'Rahim Uddin', identifier: 'rahim.uddin@dhaka-demo', amount: 8000, featured: true },
+  { key: 'LK', title: 'Sri Lanka', blurb: 'Student expenses in Colombo.', country: 'LK', name: 'Nimali Perera', identifier: 'nimali.perera@colombo-demo', amount: 6000, featured: true },
+  { key: 'BT', title: 'Bhutan', blurb: 'Small business payment in Thimphu.', country: 'BT', name: 'Karma Dorji', identifier: 'karma.dorji@thimphu-demo', amount: 5000, featured: true },
+  { key: 'AE', title: 'UAE', blurb: 'Worker-to-family corridor, in reverse: paying a contact in Dubai.', country: 'AE', name: 'Rohit Menon', identifier: 'rohit.menon@dubai-demo', amount: 15000 },
+  { key: 'US', title: 'United States', blurb: 'Tuition and living costs.', country: 'US', name: 'Ananya Rao', identifier: 'ananya.rao@us-demo', amount: 20000 },
+  { key: 'GB', title: 'United Kingdom', blurb: 'Freelance invoice payment.', country: 'GB', name: 'Oliver Grant', identifier: 'oliver.grant@uk-demo', amount: 9000 },
+  { key: 'SG', title: 'Singapore', blurb: 'Supplier payment for a small business.', country: 'SG', name: 'Wei Ling Tan', identifier: 'weiling.tan@sg-demo', amount: 11000 },
+  { key: 'JP', title: 'Japan', blurb: 'Zero-decimal currency (JPY) rounding demo.', country: 'JP', name: 'Haruto Sato', identifier: 'haruto.sato@jp-demo', amount: 14000 },
+  { key: 'KE', title: 'Kenya', blurb: 'Africa corridor example.', country: 'KE', name: 'Amina Otieno', identifier: 'amina.otieno@ke-demo', amount: 7000 },
+  { key: 'BR', title: 'Brazil', blurb: 'Latin America: tuition support in São Paulo.', country: 'BR', name: 'Lucas Almeida', identifier: 'lucas.almeida@br-demo', amount: 12000 },
+  { key: 'NG', title: 'Nigeria', blurb: 'Large-unit currency (NGN) to a family in Lagos.', country: 'NG', name: 'Chidi Okafor', identifier: 'chidi.okafor@ng-demo', amount: 9000 },
+  { key: 'AU', title: 'Australia', blurb: 'Student living costs in Melbourne.', country: 'AU', name: 'Emma Wilson', identifier: 'emma.wilson@au-demo', amount: 18000 },
+  { key: 'DE', title: 'Germany (euro)', blurb: 'One of 20+ euro-area corridors that share a currency.', country: 'DE', name: 'Lena Fischer', identifier: 'lena.fischer@de-demo', amount: 16000 },
+  { key: 'KW', title: 'Kuwait', blurb: 'Three-decimal currency (KWD) rounding demo.', country: 'KW', name: 'Faisal Al-Sabah', identifier: 'faisal.alsabah@kw-demo', amount: 25000 },
+  { key: 'PH', title: 'Philippines', blurb: 'Manila family support.', country: 'PH', name: 'Maria Santos', identifier: 'maria.santos@ph-demo', amount: 7500 },
+  { key: 'RISK', title: 'Risk assistant demo', blurb: 'A large amount to a recipient identifier already used with another name: watch the risk check flag it for verification.', country: 'NP', name: 'Geeta Sharma', identifier: 'gita.thapa@nepal-demo', amount: 60000, risk: true },
+];
